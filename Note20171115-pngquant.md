@@ -1,0 +1,1 @@
+尝试了一下[Imagine](https://github.com/meowtec/Imagine)客户端做压缩，从效果上看，压缩损失的程度非常高，不适合当前的项目，而且单张压缩的效率并不高，等待时间略长，因此放弃了。最后还是选择了[pngquant](https://pngquant.org)作为png压缩工具，好处是它提供了命令行操作方式，可使用Python等脚本来驱动定制，唯一的痛点是只支持PNG图片。
