@@ -1,6 +1,5 @@
 1. 创建了一个用于`Cocos2d-x`的简洁动画库[Anime](https://github.com/DoooReyn/Anime)，以后就可以愉快快速地创建动画了。
 2. xCode9 运行 iOS 模拟器奇慢无比的官方解释和临时解决办法：
-
 > Update: This bug is fixed in Xcode 9.1 beta 2.
 <br/><br/>
     There is a bug in OpenGLES.framework in the iOS 11/tvOS 11/watchOS 4 Simulators that causes them to skip loading the LLVM JIT and fall back to interpreting shaders. This has a severe performance impact on the Simulator since it is entirely software-rendered OpenGL (this includes CoreAnimation, SceneKit, etc).
